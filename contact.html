@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awdhesh - a web developer, a porgramer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="myintro.html">My Intro</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="ham">
+                <img class="hamburger" src="images/ham.png" alt="" width="23">
+                <img class="cross" src="images/cross.png" alt="" width="23">
+            </div>
+            <div class="form">
+                <h1>Want to Connect to me... </h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="clientname" class="form-label">Enter name:</label><br>
+                        <input type="text" class="form-control" id="clientname" aria-describedby="emailHelp" required>
+                    </div>    
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Enter Email address:</label><br>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" required>
+                    </div>    
+                          
+                    <div class="mb-3">
+                        <label for="clientphone" class="form-label">Mobile no.: </label><br>
+                        <input type="phone" class="form-control" id="clientphone" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="clientenquiry" class="form-label">Enter your Enquiry: </label><br>
+                        <input type="textarea" class="form-control" id="clientenquiry" required>
+                    </div>
+                    
+                    <div id="emailHelp" class="form-text">We'll never share your email and contact no. with anyone else.</div>
+                    
+                    <button type="submit" class="btn submitClick">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
